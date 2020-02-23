@@ -1,0 +1,56 @@
+{
+	"headers": [
+		{
+			"headerName": "表头文字1",
+			"col": 6,
+			"detail": null
+		},
+		{
+			"headerName": "表头文字2",
+			"col": 6,
+			"detail": null
+		},
+		{
+			"headerName": "表头文字3",
+			"col": 6,
+			"detail": null
+		},
+		{
+			"headerName": "表头文字4",
+			"col": 6,
+			"detail": [
+				{
+					"headerName": "表头文字4_1",
+					"col": 0,
+					"detail": null
+				},
+				{
+					"headerName": "表头文字4_2",
+					"col": 0,
+					"detail": null
+				}
+			]
+		}
+	],
+	"newDatas": [
+		{
+			"id": "0",
+			"name": "面向业务",
+			"level": 1,
+			"col": 0,
+			"children": [
+				{"id": "1",
+					"name": "家宽（王腾）",
+					"level": 2,
+					"col": 0
+				},
+				{
+					"id": "4",
+					"name": "网络能力",
+					"level": 3,
+					"col": 0
+				}
+			]
+		}
+	]
+}

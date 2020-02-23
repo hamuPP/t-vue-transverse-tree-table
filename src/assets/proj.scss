@@ -1,0 +1,155 @@
+/**
+* Created by tangyue on 20/1/3
+* 项目样式
+*/
+@charset "UTF-8";
+@import './variable.scss';
+
+.T-transverseTreeTable{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	&.border{
+		border:1px solid #dcdcdc;
+	}
+
+	.head-col {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		border-right: 1px solid #fff;
+		border-bottom: 1px solid #fff;
+		background: #52bde4;
+		color: #fff;
+		padding: 4px 0;
+		.col-inner {
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			width: 100%;
+			line-height: 23px;
+		}
+	}
+
+	.left-fixed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		overflow: hidden;
+		background: #fff;//固定列背景色纯白，必须设置颜色以防出现上下文字重叠
+		//固定列里面的表体，设置overflowhidden
+		.T-transverseTreeTable-body{
+			overflow: hidden;
+		}
+	}
+	.show-right-shadow {
+		-webkit-box-shadow: 0 0 10px rgba(0,0,0,.12);
+		-moz-box-shadow: 0 0 10px rgba(0,0,0,.12);
+		box-shadow: 0 0 10px rgba(0,0,0,.12);
+	}
+	// 空数据显示
+	.table-body-empty{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		.img{
+			width: 120px;
+			height: 120px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin: -60px 0 0 -60px;
+		}
+	}
+	// 表格的loading层
+	.table-loading{
+		position: absolute;
+		top:0;
+		left:0;
+		width: 100%;
+		height: 100%;
+		background: hsla(0,0%,100%,.9);
+		.img{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin: -40px 0 0 -70px;
+		}
+	}
+}
+
+//表头
+.T-transverseTreeTable-header{
+	font-size: 12px;
+	//主表头设置个蓝色.
+	&.main-table-header{
+		background: #52bde4;
+	}
+}
+
+
+//表体
+.T-transverseTreeTable-body {
+	font-size: 12px;
+	color: #000;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: auto;
+	height: calc(100% - 64px);//表体的高度64px
+	*{
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	ul{
+		text-align: center;
+	}
+}
+
+
+.ul {
+	float: left;
+	padding: 0;
+}
+.ul_1{
+	border-left: 1px solid #dcdcdc;
+	border-bottom: 1px solid #dcdcdc;
+}
+
+.li {
+	padding: 0;
+	overflow: hidden;
+	display: flex;
+}
+
+.text-node {
+	/*width: 100px;*/
+	color: #333;
+	float: left;
+	/*flex: 1;*/
+	border: 1px solid #dcdcdc;
+	border-left: none;
+	border-bottom: none;
+}
+
+.inner-text {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 100%;
+	padding: 7px 10px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;/*文字超出则显示。。。*/
+}
+
+.inner-text:before {
+	content: '';
+	height: 100%;
+	vertical-align: middle;
+	display: inline-block;
+}

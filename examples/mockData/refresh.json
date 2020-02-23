@@ -1,0 +1,2823 @@
+{
+	"headers": [
+		{
+			"headerName": "指标名称",
+			"type": "targetName",
+			"col": 6,
+			"detail": null
+		},
+		{
+			"headerName": "单位",
+			"type": "unit",
+			"col": 0,
+			"detail": null
+		},
+		{
+			"headerName": "数据属性",
+			"type": "dataPermission",
+			"col": 0,
+			"detail": null
+		},
+		{
+			"headerName": "关注度",
+			"type": "safetyLevel",
+			"col": 0,
+			"detail": null
+		},
+		{
+			"headerName": "周期",
+			"type": "cycles",
+			"col": 0,
+			"detail": null
+		},
+		{
+			"headerName": "2020",
+			"type": null,
+			"col": 0,
+			"detail": [
+				{
+					"headerName": "上半年",
+					"type": null,
+					"col": 0,
+					"detail": [
+						{
+							"headerName": "全市",
+							"type": "val0",
+							"col": 0,
+							"detail": null
+						}
+					]
+				}
+			]
+		},
+		{
+			"headerName": "数据来源",
+			"type": "dataSources",
+			"col": 0,
+			"detail": null
+		},
+		{
+			"headerName": "填报责任人",
+			"type": "indexType",
+			"col": 0,
+			"detail": null
+		},
+		{
+			"headerName": "关联指标及计算逻辑",
+			"type": "entityDesc",
+			"col": 0,
+			"detail": null
+		}
+	],
+	"datas": null,
+	"newDatas": [
+		{
+			"id": "0",
+			"name": "面向业务",
+			"level": 1,
+			"col": 0,
+			"children": [
+				{
+					"id": "1",
+					"name": "家宽（王腾）",
+					"level": 2,
+					"col": 0,
+					"children": [
+						{
+							"id": "2",
+							"name": "投资",
+							"level": 3,
+							"col": 0,
+							"children": [
+								{
+									"id": null,
+									"name": "末端接入投资",
+									"level": 0,
+									"col": 3,
+									"children": [
+										{
+											"id": null,
+											"name": "万元",
+											"level": 0,
+											"col": 0,
+											"children": [
+												{
+													"id": null,
+													"name": "保留小数点后两位",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": "中",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": null,
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": "30036.00",
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "PMS",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "王腾",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "",
+																									"level": 0,
+																									"col": 0,
+																									"children": null
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "4",
+							"name": "网络能力",
+							"level": 3,
+							"col": 0,
+							"children": [
+								{
+									"id": "5",
+									"name": "覆盖率",
+									"level": 4,
+									"col": 0,
+									"children": [
+										{
+											"id": null,
+											"name": "城镇",
+											"level": 0,
+											"col": 2,
+											"children": [
+												{
+													"id": null,
+													"name": "%",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": "保留小数点后两位",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": "高",
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": null,
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "30720.00",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "手工填报",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "王腾",
+																									"level": 0,
+																									"col": 0,
+																									"children": [
+																										{
+																											"id": null,
+																											"name": "",
+																											"level": 0,
+																											"col": 0,
+																											"children": null
+																										}
+																									]
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"id": null,
+											"name": "农村",
+											"level": 0,
+											"col": 2,
+											"children": [
+												{
+													"id": null,
+													"name": "%",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": "保留小数点后两位",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": "高",
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": null,
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "31404.00",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "手工填报",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "王腾",
+																									"level": 0,
+																									"col": 0,
+																									"children": [
+																										{
+																											"id": null,
+																											"name": "",
+																											"level": 0,
+																											"col": 0,
+																											"children": null
+																										}
+																									]
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "8",
+									"name": "户线数",
+									"level": 4,
+									"col": 0,
+									"children": [
+										{
+											"id": null,
+											"name": "城镇",
+											"level": 0,
+											"col": 2,
+											"children": [
+												{
+													"id": null,
+													"name": "线",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": "整数",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": "中",
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": null,
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "32088.00",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "综资",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "王腾",
+																									"level": 0,
+																									"col": 0,
+																									"children": [
+																										{
+																											"id": null,
+																											"name": "直接取值",
+																											"level": 0,
+																											"col": 0,
+																											"children": null
+																										}
+																									]
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"id": null,
+											"name": "农村",
+											"level": 0,
+											"col": 2,
+											"children": [
+												{
+													"id": null,
+													"name": "线",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": "整数",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": "中",
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": null,
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "32772.00",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "综资",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "王腾",
+																									"level": 0,
+																									"col": 0,
+																									"children": [
+																										{
+																											"id": null,
+																											"name": "直接取值",
+																											"level": 0,
+																											"col": 0,
+																											"children": null
+																										}
+																									]
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "11",
+									"name": "深度合作进度",
+									"level": 4,
+									"col": 0,
+									"children": [
+										{
+											"id": null,
+											"name": "农村",
+											"level": 0,
+											"col": 2,
+											"children": [
+												{
+													"id": null,
+													"name": "线",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": "整数",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": "中",
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": null,
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "33456.00",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "PBOSS",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "王腾",
+																									"level": 0,
+																									"col": 0,
+																									"children": [
+																										{
+																											"id": null,
+																											"name": "",
+																											"level": 0,
+																											"col": 0,
+																											"children": null
+																										}
+																									]
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "15",
+							"name": "效益",
+							"level": 3,
+							"col": 0,
+							"children": [
+								{
+									"id": "16",
+									"name": "接入率（呈现指标）",
+									"level": 4,
+									"col": 0,
+									"children": [
+										{
+											"id": "18",
+											"name": "农村",
+											"level": 5,
+											"col": 0,
+											"children": [
+												{
+													"id": null,
+													"name": "平均接入率",
+													"level": 0,
+													"col": 1,
+													"children": [
+														{
+															"id": null,
+															"name": "%",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": "保留小数点后两位",
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": "高",
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": null,
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "36192.00",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "综资",
+																									"level": 0,
+																									"col": 0,
+																									"children": [
+																										{
+																											"id": null,
+																											"name": "王腾",
+																											"level": 0,
+																											"col": 0,
+																											"children": [
+																												{
+																													"id": null,
+																													"name": "",
+																													"level": 0,
+																													"col": 0,
+																													"children": null
+																												}
+																											]
+																										}
+																									]
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"id": null,
+													"name": "深度合作接入率（建成三个月以上）",
+													"level": 0,
+													"col": 1,
+													"children": [
+														{
+															"id": null,
+															"name": "%",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": "保留小数点后两位",
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": "高",
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": null,
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "36876.00",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "PBOSS",
+																									"level": 0,
+																									"col": 0,
+																									"children": [
+																										{
+																											"id": null,
+																											"name": "王腾",
+																											"level": 0,
+																											"col": 0,
+																											"children": [
+																												{
+																													"id": null,
+																													"name": "",
+																													"level": 0,
+																													"col": 0,
+																													"children": null
+																												}
+																											]
+																										}
+																									]
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"id": null,
+											"name": "城镇",
+											"level": 0,
+											"col": 2,
+											"children": [
+												{
+													"id": null,
+													"name": "%",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": "保留小数点后两位",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": "高",
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": null,
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "35508.00",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "综资",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "王腾",
+																									"level": 0,
+																									"col": 0,
+																									"children": [
+																										{
+																											"id": null,
+																											"name": "",
+																											"level": 0,
+																											"col": 0,
+																											"children": null
+																										}
+																									]
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "21",
+									"name": "零业务分纤箱（关注指标）占比",
+									"level": 4,
+									"col": 0,
+									"children": [
+										{
+											"id": null,
+											"name": "城镇",
+											"level": 0,
+											"col": 2,
+											"children": [
+												{
+													"id": null,
+													"name": "%",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": "保留小数点后两位",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": "高",
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": null,
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "37560.00",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "综资",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "王腾",
+																									"level": 0,
+																									"col": 0,
+																									"children": [
+																										{
+																											"id": null,
+																											"name": "",
+																											"level": 0,
+																											"col": 0,
+																											"children": null
+																										}
+																									]
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"id": null,
+											"name": "农村",
+											"level": 0,
+											"col": 2,
+											"children": [
+												{
+													"id": null,
+													"name": "%",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": "保留小数点后两位",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": "高",
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": null,
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "38244.00",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "综资",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "王腾",
+																									"level": 0,
+																									"col": 0,
+																									"children": [
+																										{
+																											"id": null,
+																											"name": "",
+																											"level": 0,
+																											"col": 0,
+																											"children": null
+																										}
+																									]
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "24",
+									"name": "单线造价",
+									"level": 4,
+									"col": 0,
+									"children": [
+										{
+											"id": null,
+											"name": "城镇",
+											"level": 0,
+											"col": 2,
+											"children": [
+												{
+													"id": null,
+													"name": "元",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": "整数",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": "中",
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": null,
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "38928.00",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "手工填报",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "王腾",
+																									"level": 0,
+																									"col": 0,
+																									"children": [
+																										{
+																											"id": null,
+																											"name": "",
+																											"level": 0,
+																											"col": 0,
+																											"children": null
+																										}
+																									]
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"id": null,
+											"name": "农村",
+											"level": 0,
+											"col": 2,
+											"children": [
+												{
+													"id": null,
+													"name": "元",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": "整数",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": "中",
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": null,
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "39612.00",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "手工填报",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "王腾",
+																									"level": 0,
+																									"col": 0,
+																									"children": [
+																										{
+																											"id": null,
+																											"name": "",
+																											"level": 0,
+																											"col": 0,
+																											"children": null
+																										}
+																									]
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": null,
+									"name": "发展用户数（集团）",
+									"level": 0,
+									"col": 3,
+									"children": [
+										{
+											"id": null,
+											"name": "万户",
+											"level": 0,
+											"col": 0,
+											"children": [
+												{
+													"id": null,
+													"name": "保留小数点后两位",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": "高",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": null,
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": "40296.00",
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "经分",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "王腾",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "",
+																									"level": 0,
+																									"col": 0,
+																									"children": null
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": null,
+									"name": "发展用户数（内部）",
+									"level": 0,
+									"col": 3,
+									"children": [
+										{
+											"id": null,
+											"name": "万户",
+											"level": 0,
+											"col": 0,
+											"children": [
+												{
+													"id": null,
+													"name": "保留小数点后两位",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": "高",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": null,
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": "40980.00",
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "经分",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "王腾",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "",
+																									"level": 0,
+																									"col": 0,
+																									"children": null
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": null,
+									"name": "宽带融合率",
+									"level": 0,
+									"col": 3,
+									"children": [
+										{
+											"id": null,
+											"name": "%",
+											"level": 0,
+											"col": 0,
+											"children": [
+												{
+													"id": null,
+													"name": "保留小数点后两位",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": "低",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": null,
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": "41664.00",
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "手工填报",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "王腾",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "",
+																									"level": 0,
+																									"col": 0,
+																									"children": null
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": null,
+							"name": "接入率（家宽）",
+							"level": 0,
+							"col": 4,
+							"children": [
+								{
+									"id": null,
+									"name": "%",
+									"level": 0,
+									"col": 0,
+									"children": [
+										{
+											"id": null,
+											"name": "保留小数点后两位",
+											"level": 0,
+											"col": 0,
+											"children": [
+												{
+													"id": null,
+													"name": "高",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": null,
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": "34140.00",
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": "综资",
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "王腾",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "",
+																							"level": 0,
+																							"col": 0,
+																							"children": null
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": null,
+							"name": "接入率（计划部家宽）",
+							"level": 0,
+							"col": 4,
+							"children": [
+								{
+									"id": null,
+									"name": "%",
+									"level": 0,
+									"col": 0,
+									"children": [
+										{
+											"id": null,
+											"name": "保留小数点后两位",
+											"level": 0,
+											"col": 0,
+											"children": [
+												{
+													"id": null,
+													"name": "高",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": null,
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": "34824.00",
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": "综资",
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "王腾",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "",
+																							"level": 0,
+																							"col": 0,
+																							"children": null
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "30",
+					"name": "专线（王腾）",
+					"level": 2,
+					"col": 0,
+					"children": [
+						{
+							"id": "31",
+							"name": "效益",
+							"level": 3,
+							"col": 0,
+							"children": [
+								{
+									"id": null,
+									"name": "增量投资",
+									"level": 0,
+									"col": 3,
+									"children": [
+										{
+											"id": null,
+											"name": "万元",
+											"level": 0,
+											"col": 0,
+											"children": [
+												{
+													"id": null,
+													"name": "保留小数点后两位",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": "高",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": null,
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": "42348.00",
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "PMS",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "王腾",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "",
+																									"level": 0,
+																									"col": 0,
+																									"children": null
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": null,
+									"name": "增量收入",
+									"level": 0,
+									"col": 3,
+									"children": [
+										{
+											"id": null,
+											"name": "万元",
+											"level": 0,
+											"col": 0,
+											"children": [
+												{
+													"id": null,
+													"name": "保留小数点后两位",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": "高",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": null,
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": "43032.00",
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "手工填报",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "王腾",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "",
+																									"level": 0,
+																									"col": 0,
+																									"children": null
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": null,
+									"name": "投资回收期",
+									"level": 0,
+									"col": 3,
+									"children": [
+										{
+											"id": null,
+											"name": "月",
+											"level": 0,
+											"col": 0,
+											"children": [
+												{
+													"id": null,
+													"name": "保留小数点后一位",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": "高",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": null,
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": "43716.00",
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "手工填报",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "王腾",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "",
+																									"level": 0,
+																									"col": 0,
+																									"children": null
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "35",
+							"name": "网络能力",
+							"level": 3,
+							"col": 0,
+							"children": [
+								{
+									"id": "37",
+									"name": "数据专线条数",
+									"level": 4,
+									"col": 0,
+									"children": [
+										{
+											"id": null,
+											"name": "PTN专线条数",
+											"level": 0,
+											"col": 2,
+											"children": [
+												{
+													"id": null,
+													"name": "条",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": "整数",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": "中",
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": null,
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "45084.00",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "手工填报",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "王腾",
+																									"level": 0,
+																									"col": 0,
+																									"children": [
+																										{
+																											"id": null,
+																											"name": "分公司加总",
+																											"level": 0,
+																											"col": 0,
+																											"children": null
+																										}
+																									]
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"id": null,
+											"name": "VPN专线条数",
+											"level": 0,
+											"col": 2,
+											"children": [
+												{
+													"id": null,
+													"name": "条",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": "整数",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": "中",
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": null,
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "45768.00",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "手工填报",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "王腾",
+																									"level": 0,
+																									"col": 0,
+																									"children": [
+																										{
+																											"id": null,
+																											"name": "分公司加总",
+																											"level": 0,
+																											"col": 0,
+																											"children": null
+																										}
+																									]
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": null,
+									"name": "总体规模",
+									"level": 0,
+									"col": 3,
+									"children": [
+										{
+											"id": null,
+											"name": "条",
+											"level": 0,
+											"col": 0,
+											"children": [
+												{
+													"id": null,
+													"name": "整数",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": "中",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": null,
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": "44400.00",
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "手工填报",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "王腾",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "分公司加总",
+																									"level": 0,
+																									"col": 0,
+																									"children": null
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": null,
+									"name": "互联网专线",
+									"level": 0,
+									"col": 3,
+									"children": [
+										{
+											"id": null,
+											"name": "条",
+											"level": 0,
+											"col": 0,
+											"children": [
+												{
+													"id": null,
+													"name": "整数",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": "中",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": null,
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": "46452.00",
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "手工填报",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "王腾",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "分公司加总",
+																									"level": 0,
+																									"col": 0,
+																									"children": null
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "41",
+							"name": "建设效率",
+							"level": 3,
+							"col": 0,
+							"children": [
+								{
+									"id": null,
+									"name": "末端单位造价",
+									"level": 0,
+									"col": 3,
+									"children": [
+										{
+											"id": null,
+											"name": "元",
+											"level": 0,
+											"col": 0,
+											"children": [
+												{
+													"id": null,
+													"name": "整数",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": "中",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": null,
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": "47136.00",
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "手工填报",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "王腾",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "",
+																									"level": 0,
+																									"col": 0,
+																									"children": null
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "43",
+					"name": "商宽（王腾）",
+					"level": 2,
+					"col": 0,
+					"children": [
+						{
+							"id": "44",
+							"name": "投资",
+							"level": 3,
+							"col": 0,
+							"children": [
+								{
+									"id": null,
+									"name": "末端接入投资",
+									"level": 0,
+									"col": 3,
+									"children": [
+										{
+											"id": null,
+											"name": "万元",
+											"level": 0,
+											"col": 0,
+											"children": [
+												{
+													"id": null,
+													"name": "保留小数点后两位",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": "中",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": null,
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": "47820.00",
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "PMS",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "王腾",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "",
+																									"level": 0,
+																									"col": 0,
+																									"children": null
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "46",
+							"name": "网络能力",
+							"level": 3,
+							"col": 0,
+							"children": [
+								{
+									"id": "48",
+									"name": "户线数",
+									"level": 4,
+									"col": 0,
+									"children": [
+										{
+											"id": null,
+											"name": "城镇",
+											"level": 0,
+											"col": 2,
+											"children": [
+												{
+													"id": null,
+													"name": "线",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": "整数",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": "高",
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": null,
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "49188.00",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "综资",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "王腾",
+																									"level": 0,
+																									"col": 0,
+																									"children": [
+																										{
+																											"id": null,
+																											"name": "",
+																											"level": 0,
+																											"col": 0,
+																											"children": null
+																										}
+																									]
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"id": null,
+											"name": "农村",
+											"level": 0,
+											"col": 2,
+											"children": [
+												{
+													"id": null,
+													"name": "线",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": "整数",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": "高",
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": null,
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "49872.00",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "综资",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "王腾",
+																									"level": 0,
+																									"col": 0,
+																									"children": [
+																										{
+																											"id": null,
+																											"name": "",
+																											"level": 0,
+																											"col": 0,
+																											"children": null
+																										}
+																									]
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": null,
+									"name": "覆盖率",
+									"level": 0,
+									"col": 3,
+									"children": [
+										{
+											"id": null,
+											"name": "%",
+											"level": 0,
+											"col": 0,
+											"children": [
+												{
+													"id": null,
+													"name": "保留小数点后两位",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": "高",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": null,
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": "48504.00",
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "手工填报",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "王腾",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "",
+																									"level": 0,
+																									"col": 0,
+																									"children": null
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "51",
+							"name": "效益",
+							"level": 3,
+							"col": 0,
+							"children": [
+								{
+									"id": "52",
+									"name": "接入率（呈现指标）",
+									"level": 4,
+									"col": 0,
+									"children": [
+										{
+											"id": null,
+											"name": "城镇",
+											"level": 0,
+											"col": 2,
+											"children": [
+												{
+													"id": null,
+													"name": "%",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": "保留小数点后两位",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": "高",
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": null,
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "50556.00",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "综资",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "王腾",
+																									"level": 0,
+																									"col": 0,
+																									"children": [
+																										{
+																											"id": null,
+																											"name": "",
+																											"level": 0,
+																											"col": 0,
+																											"children": null
+																										}
+																									]
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"id": null,
+											"name": "农村",
+											"level": 0,
+											"col": 2,
+											"children": [
+												{
+													"id": null,
+													"name": "%",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": "保留小数点后两位",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": "高",
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": null,
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "51240.00",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "综资",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "王腾",
+																									"level": 0,
+																									"col": 0,
+																									"children": [
+																										{
+																											"id": null,
+																											"name": "",
+																											"level": 0,
+																											"col": 0,
+																											"children": null
+																										}
+																									]
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"id": null,
+											"name": "接入率（商宽）",
+											"level": 0,
+											"col": 2,
+											"children": [
+												{
+													"id": null,
+													"name": "%",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": "保留小数点后两位",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": "高",
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": null,
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "51924.00",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "综资",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "王腾",
+																									"level": 0,
+																									"col": 0,
+																									"children": [
+																										{
+																											"id": null,
+																											"name": "",
+																											"level": 0,
+																											"col": 0,
+																											"children": null
+																										}
+																									]
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "56",
+									"name": "单线造价",
+									"level": 4,
+									"col": 0,
+									"children": [
+										{
+											"id": null,
+											"name": "城镇",
+											"level": 0,
+											"col": 2,
+											"children": [
+												{
+													"id": null,
+													"name": "元",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": "整数",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": "中",
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": null,
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "52608.00",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "手工填报",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "王腾",
+																									"level": 0,
+																									"col": 0,
+																									"children": [
+																										{
+																											"id": null,
+																											"name": "",
+																											"level": 0,
+																											"col": 0,
+																											"children": null
+																										}
+																									]
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"id": null,
+											"name": "农村",
+											"level": 0,
+											"col": 2,
+											"children": [
+												{
+													"id": null,
+													"name": "元",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": "整数",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": "中",
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": null,
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "53292.00",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "手工填报",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "王腾",
+																									"level": 0,
+																									"col": 0,
+																									"children": [
+																										{
+																											"id": null,
+																											"name": "",
+																											"level": 0,
+																											"col": 0,
+																											"children": null
+																										}
+																									]
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": null,
+									"name": "发展用户数",
+									"level": 0,
+									"col": 3,
+									"children": [
+										{
+											"id": null,
+											"name": "万户",
+											"level": 0,
+											"col": 0,
+											"children": [
+												{
+													"id": null,
+													"name": "保留小数点后两位",
+													"level": 0,
+													"col": 0,
+													"children": [
+														{
+															"id": null,
+															"name": "高",
+															"level": 0,
+															"col": 0,
+															"children": [
+																{
+																	"id": null,
+																	"name": null,
+																	"level": 0,
+																	"col": 0,
+																	"children": [
+																		{
+																			"id": null,
+																			"name": "53976.00",
+																			"level": 0,
+																			"col": 0,
+																			"children": [
+																				{
+																					"id": null,
+																					"name": "经分",
+																					"level": 0,
+																					"col": 0,
+																					"children": [
+																						{
+																							"id": null,
+																							"name": "王腾",
+																							"level": 0,
+																							"col": 0,
+																							"children": [
+																								{
+																									"id": null,
+																									"name": "",
+																									"level": 0,
+																									"col": 0,
+																									"children": null
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

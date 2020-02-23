@@ -1,0 +1,17 @@
+@charset "UTF-8";
+@import './variable.scss';
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre{ margin:0; padding:0; }
+body, button, input, select, textarea { font-size:$baseFontSize;}
+h1, h2, h3, h4, h5, h6{ font-size:$hundredPercent;}
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+small{ font-size:$baseFontSize; }
+ul, ol { list-style:none; }
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:$hundredPercent; }
+table { border-collapse:collapse; border-spacing:0; }

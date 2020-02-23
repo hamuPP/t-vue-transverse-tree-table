@@ -1,0 +1,13 @@
+@import './variable.scss';
+.T-vue-transverseTreeTable-docs{
+	height: 100%;
+	@include boxSizingBorderbox;
+	* {
+		@include boxSizingBorderbox;
+	}
+	.app{
+		height: 100%;
+		font-size: 16px;
+		padding: 10px;
+	}
+}
