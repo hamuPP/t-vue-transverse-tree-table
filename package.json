@@ -1,6 +1,6 @@
 {
 	"name": "t-vue-transverse-tree-table",
-	"version": "0.1.0",
+	"version": "0.1.2",
 	"description": "TransverseTreeTable.min.js base on vue2.5.9",
 	"main": "dist/TransverseTreeTable.min.js",
 	"scripts": {
