@@ -6,7 +6,7 @@
        :class="{'border': border}">
     <!--主体表格和表头 start -->
     <!-- 表头 start -->
-    <TreeTableHeader
+    <TreeTableHeader v-show="showPage"
             class="main-table-header"
             ref="mainTableHeader"
             :rows="rows"
@@ -18,11 +18,12 @@
     <!-- 表头 end -->
 
     <!-- 表体 start -->
-    <TreeTable ref="mainTableBody"
+    <TreeTable ref="mainTableBody" v-show="showPage"
                class="main-table-body"
                :data="tableBodyData"
                :cellWidth="cellWidth"
                :bodyWrapperStyleObj="bodyWrapperStyleObj"
+               @renderEnd="renderEndHandle"
     >
     </TreeTable>
     <!-- 表体 end -->
@@ -33,7 +34,7 @@
       <!--TODO mousewheele事件-->
       <!--v-mousewheel="handleFixedMousewheel"-->
 
-      <FixedColumns
+      <FixedColumns v-show="showPage"
               :leftFixedClass="leftFixedClass"
               :fixedColumnsStyleObj="fixedColumnsStyleObj"
       >
@@ -124,6 +125,7 @@
     },
     data() {
       return {
+        showPage: false,// 默认将表头、表体、锁定列隐藏，当结束loading时再显示
         tableBodyData: [],//表体数据
         tableHeaderData: [], //表头数据
         cellWidth: 100,//默认列宽
@@ -135,6 +137,7 @@
         bodyWrapperStyleObj: {},//表体样式
         leftFixedClass: '',
         fixedColumnsStyleObj: {},//锁定列的样式
+        refsMainTableBody: null, // refs为mainTableBody的组件
         mainTableBodyEle: null,//主表体元素
         showEmpty: false,//显示无数据样式
         emptyWrapperStyleObj: {},//空数据层的样式
@@ -144,8 +147,11 @@
       this.cellWidth = this.columnWidth;
     },
     mounted() {
-      let mainTableBodyEle = this.mainTableBodyEle = this.$refs.mainTableBody ? this.$refs.mainTableBody.$el : this.$refs.mainTableBody;
+      let refsMainTableBody = this.refsMainTableBody = this.$refs.mainTableBody;
+      let mainTableBodyEle = this.mainTableBodyEle = refsMainTableBody.$el || refsMainTableBody;
       mainTableBodyEle.addEventListener('scroll', this.syncPosition);
+    },
+    updated(){
     },
     watch: {
       tableData(newData, oldData) {
@@ -198,7 +204,6 @@
       headerData(newData, oldData) {
         this.tableHeaderData = newData;
       },
-
       tableHeaderData(val, oldData) {
         // 处理表头数据，整理出行和列数据，并使行列数据格式成为前端需要的格式
         this.rows = this.generateRows(val, 'detail', this.cellWidth);
@@ -211,7 +216,6 @@
           });
         })
       },
-
       fixedColumns(newArr, o) {
         //计算锁定列的宽度
         let width = 0;
@@ -221,14 +225,24 @@
         this.fixedColumnsStyleObj = {
           width: `${width}px`
         };
+      },
+      loading(n, o){
+        // 引用组件的父元素执行了关闭loading层
+        debugger;
+        //检查此时页面上是否隐藏了元素
+        if(n === false){
+          console.log('loading赋值为false...', new Date().getTime())
+        }else{
+          this.showPage = false;
+        }
+        //此时的子组件 TreeTable是否已经渲染完dom？
       }
     },
 
     methods: {
       //表格滚动时，更新表格的样式
       syncPosition: throttle(5, function () {
-        //滚动条左边距离
-        console.log('throttle syncPosition')
+        //滚动条左边距离f
         let scrollLEFT = this.mainTableBodyEle.scrollLeft;
         let scrollTop = this.mainTableBodyEle.scrollTop;
         let fixedTableBody = this.$refs.fixedTableBody;
@@ -327,8 +341,15 @@
       // 锁定列的鼠标滚动
       handleFixedMousewheel() {
 
+      },
+      renderEndHandle(){
+        debugger;
+        console.log('TreeTable.vue emit', new Date().getTime());
+        if(!this.showPage){
+          //隐藏掉，观察对隐藏元素操作dom是否会卡
+            this.showPage = true;
+        }
       }
-
     }
   }
 </script>

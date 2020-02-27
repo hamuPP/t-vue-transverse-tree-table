@@ -1,6 +1,6 @@
 {
 	"name": "t-vue-transverse-tree-table",
-	"version": "0.0.9",
+	"version": "0.1.0",
 	"description": "TransverseTreeTable.min.js base on vue2.5.9",
 	"main": "dist/TransverseTreeTable.min.js",
 	"scripts": {
@@ -8,7 +8,7 @@
 		"start": "webpack-dev-server --hot --inline",
 		"dev": "webpack-dev-server --open --inline --config build/webpack.dev.conf.js ",
 		"build": "webpack --display-error-details --config build/webpack.config.dist.js",
-		"examplesDev": "webpack-dev-server --open --inline --hot --host localhost --port 2537 --config build/webpack.config.examples.js",
+		"examplesDev": "webpack-dev-server --open --inline --hot --port 2537 --config build/webpack.config.examples.js",
 		"examplesBuild": "webpack --config build/webpack.config.examples.js",
 		"lint": "eslint --fix --ext .js,.vue src test/unit"
 	},

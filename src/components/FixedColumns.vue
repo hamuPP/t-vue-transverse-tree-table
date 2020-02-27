@@ -7,7 +7,6 @@
        :class="leftFixedClass"
        :style="fixedColumnsStyleObj"
        >
-
     <!--锁定的表头-->
     <slot name="header"></slot>
 
@@ -32,19 +31,6 @@
           return {}
         }
       }
-    },
-    created () {
-      console.log(this.leftFixedClass);
-    },
-
-    watch: {
-      leftFixedClass(n, o) {
-        console.log(n);
-      }
     }
   }
 </script>
-
-<style scoped>
-
-</style>

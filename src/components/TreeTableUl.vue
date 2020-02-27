@@ -14,24 +14,36 @@
         :key="it.name"
         :class="liClassObj">
       <div ref="textNode"
-           class="text-node"
-           :style="textNodeStyle(it)">
-        <div class="inner-text">
+           class="text-node">
+        <!-- 原本:style="textNodeStyle(it)"是放在text-node上，但是在有了平铺结构之后，会出现问题：实际宽度并不会等于这个数值。所以改为设在子元素上-->
+        <div class="inner-text" :style="textNodeStyle(it)">
           {{it.name}}
         </div>
       </div>
-      <TreeTableUl v-if="it.children && it.children.length && it.children !==[null]"
-                   :data="it.children"
-                   :cellWidth="cellWidth"
-                   :dataKey="keyCount">
-      </TreeTableUl>
+      <!--区分该节点是否有平铺标识-->
+      <!-- 若有则平铺，-->
+      <template v-if="it.flatStartNode">
+        <FlatTextNode v-if="it.children && it.children.length && it.children !==[null]"
+                      :data="it.children">
+        </FlatTextNode>
+      </template>
+      <!-- 若无，则嵌套循环 -->
+      <template v-else>
+        <TreeTableUl v-if="it.children && it.children.length && it.children !==[null]"
+                     :data="it.children"
+                     :cellWidth="cellWidth"
+                     :dataKey="keyCount">
+        </TreeTableUl>
+      </template>
     </li>
   </ul>
 </template>
 
 <script>
+  import FlatTextNode from './FlatTextNode.vue'
   export default {
     name: 'TreeTableUl',
+    components: {FlatTextNode},
     props: {
       data: {
         type: Array,
@@ -120,12 +132,12 @@
           num = cellData.col;
         }
         result = {
-          width: `${basciCellWidth * num}px`
+          width: `${basciCellWidth * num -1}px`// 必须减去1，1是text-node的右border
         };
         if(cellData && cellData.textAlign){
           result.textAlign = cellData.textAlign;
         }
-       return result;
+        return result;
       },
     }
   }
